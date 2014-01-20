@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.media {
+	overflow: hidden; /*makes the media div wrap around the image as well - if confused about what is in a div, add a border to temporarily view it*/	
+}
+
+.media-img {
+	float: left; /*brought the h2 up beside the image*/
+	margin: 0 10px 0 0; /*no matter the size of the image, these will adapt*/
+}
+
+.media-img-reverse { /*same thing as the other div but puts the picture on the other side of the page*/
+	float: right;
+	margin: 0 0 0 10px;
+}
+
+.media-img-stacked {
+	float: none;
+	margin: o;
+}
+
+.media-body {
+	overflow: hidden; /*creates new positioning context, it will no longer wrap around float items - made the p line up with the h2*/
+}

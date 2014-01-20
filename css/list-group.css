@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.list-group {
+	list-style-type: none;
+}
+
+.list-group-item:before {
+	content: none; /*takes away bullets*/
+}
+
+.list-group-item {
+	display: block; /*these li's will be stacked*/	
+}
+
+.list-group-item-inline {
+	display: inline-block; /*these li's will be inline, horizontal*/
+}
+	
